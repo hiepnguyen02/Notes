@@ -4,5 +4,6 @@
 + A completion event.
   
 A publisher can emit zero or more values but only one completion event.Completion event can be normal completion or an error.
-*Once a publisher emits a completion event => it finished and can no longer emit any more events*
+***Once a publisher emits a completion event => it finished and can no longer emit any more events***
 # Subscribers
+# Cancellable
